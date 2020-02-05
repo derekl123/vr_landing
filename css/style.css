@@ -393,7 +393,7 @@ transform: translateY(3px);
 
 /* advertisement */
 
-.advertisement_container{
+.design_container{
     position: relative;
     height: 100vh;
     width:  100%;
@@ -403,7 +403,7 @@ transform: translateY(3px);
     background-size: cover;
 }
 
-.advert{
+.design{
     position: absolute;
     top: 40%;
     right: 20%;
@@ -411,12 +411,12 @@ transform: translateY(3px);
     letter-spacing: 2px;
 }
 
-.advertisement_title{
+.design_title{
     color: #f3f3f3;
     font-size: 2rem;
 }
 
-.advertisement_text{
+.design_text{
     margin-top: 2rem;
     color: #f3f3f3;
     font-size: 1rem;
@@ -611,6 +611,7 @@ transform: translateY(3px);
         display: flex;
         flex-direction: column;
         text-align: center;
+        flex: 1 1 10px;
     }
 
     /* testimonial list */
@@ -623,13 +624,13 @@ transform: translateY(3px);
 
     /* advertiser container */
 
-    .advertisement_container{
+    .design_container{
         background-size: cover;
         text-align: center;
     }
    
 
-    .advert{
+    .design{
         position: absolute;
         top: 40%;
         right: 10%;
@@ -638,5 +639,4 @@ transform: translateY(3px);
     
 
     }
-
 
