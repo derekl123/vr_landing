@@ -1,0 +1,609 @@
+/* landing CSS for landing page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+
+
+/* nav bar */
+
+
+.logo{
+    margin-left: 2rem;
+    display: inline-block;
+    font-size: 3rem;
+}
+
+
+
+.header_nav{
+    display: flex;
+    align-items: center;
+    background:   #212529;
+    color: #f3f3f3;
+    
+}
+
+.toggle{
+    display: none;
+}
+
+
+.ul_list{
+    opacity: .6;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+}
+
+li{
+    color: #F3f3f3;
+    display: inline-block;
+    font-size: 1rem;
+    margin-right: .5rem;
+}
+
+.li_choice:hover{
+   color: #00b5e2;
+
+}
+
+.li_choice:active{
+transform: translateY(2px);
+}
+
+.middle_nav{
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+
+
+.signup{
+    margin-left: 60rem;
+    display: inline-block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.registry_btn{
+    display: inline-block;
+    border: 2px solid;
+    background: #00b5e2;
+    border-color: #00b5e2;
+    border-radius: 1.25rem;
+    color: #fff;
+    padding: .25rem 1.25rem;
+    transition: all .3 ease-in-out;
+}
+
+.registry_btn{
+    cursor: pointer;
+    color: #fff;
+    background-color: #1fd2ff;
+    border-color: #1fd2ff;
+}
+
+.registry_btn:active{
+    transform: translateY(3px);
+}
+
+/* header */
+
+.header{
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    background: #00b5e2;
+    color: #fff;
+}
+
+/* landing */
+
+.landing_middle{
+text-align: center;   
+ background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/vrdummy.jpeg') no-repeat center center;
+    background-position: 50% 10%;
+    background-size: cover;
+    height: 100vh;
+}
+
+.landing {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
+
+.registry_title{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.registry_text{
+    color: #fff;
+    margin: .5rem;
+}
+
+.registry{
+    display: inline-block;
+    border: 2px solid;
+    background: #00b5e2;
+    border-color: #00b5e2;
+    border-radius: 1.25rem;
+    color: #fff;
+    padding: .25rem 1.25rem;
+    transition: all .3 ease-in-out;
+}
+
+.registry:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #1fd2ff;
+    border-color: #1fd2ff;
+}
+
+.registry:active{
+    transform: translateY(3px);
+}
+
+
+/* perks list */
+
+.perks_list{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 200px;
+    letter-spacing: 2px;
+}
+
+.perk{
+    margin-left: 1rem;
+}
+
+
+.easy_title{
+    font-size: 1.5rem;
+}
+.easy_text{
+    margin-top: 2rem;
+}
+
+
+
+.glass_img{
+    width: 75px;
+    height: 75px;
+}
+
+.tv{
+    width: 75px;
+    height: 75px;
+
+}
+
+.controller{
+    width: 75px;
+    height: 75px;
+
+}
+
+.threesixty{
+    width: 75px;
+    height: 75px;
+}
+
+/* blue background */
+
+.blue_background{
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    background: #212529;
+    letter-spacing: 2px;
+}
+
+.brand_title{
+    text-align: center;
+    color: #f3f3f3;
+    font-size: 2rem;
+}
+
+.brand_text{
+    margin-top: 2rem;
+    margin: 1rem auto 0 auto;
+    text-align: center;
+    max-width: 650px;
+    color: #f3f3f3;
+    font-size: 1rem;
+}
+
+.brand{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* images */
+
+.whiteoculus{
+    object-fit: cover;
+    margin-left: 1rem;
+    width: 250px;
+    height: 250px;
+}
+
+.oculus{
+    object-fit: cover;
+    margin-left: 1rem;
+    width: 250px;
+    height: 250px;
+}
+
+.HTC{
+    object-fit: cover;
+    margin-left: 1rem;
+    width: 250px;
+    height: 250px;
+
+}
+
+.xiaomi{
+    object-fit: cover;
+    margin-left: 1rem;
+    width: 250px;
+    height: 250px;
+}
+
+.reg_button{
+    width: 200px;
+    border: 2px solid;
+    background: #00b5e2;
+    border-color: #00b5e2;
+    border-radius: 1.25rem;
+    color: #fff;
+    padding: .5rem 1rem .5rem 1rem;
+    transition: all .3 ease-in-out;
+}
+
+.reg_button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #1fd2ff;
+    border-color: #1fd2ff;
+}
+
+.reg_button:active{
+transform: translateY(3px);
+}
+
+/* rating testimonials */
+
+.rating_testimonial_column{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    letter-spacing: 2px;
+}
+
+.rating{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.rating_text{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.testimonial_list{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.testimonial{
+    max-width: 600px;
+    text-align: center;
+    flex-basis: 300px;
+}
+
+
+.headshot{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.headshot2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.headshot3{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.testimonial_text{
+    margin-top: 1rem;
+}
+
+.testimonial_name{
+    font-size: 1.5rem;
+}
+
+.fivestar{
+    width: 100px;
+    height: 75px;;
+    object-fit: cover;
+}
+
+/* advertisement */
+
+.advertisement_container{
+    position: relative;
+    height: 100vh;
+    width:  100%;
+    padding-top: 6rem;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/vr_woman.jpeg') no-repeat;
+    background-position: 40% 30%;
+    background-size: cover;
+}
+
+.advert{
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    width: 400px;
+    letter-spacing: 2px;
+}
+
+.advertisement_title{
+    color: #f3f3f3;
+    font-size: 2rem;
+}
+
+.advertisement_text{
+    margin-top: 2rem;
+    color: #f3f3f3;
+    font-size: 1rem;
+}
+
+.play_btn{
+    width: 200px;
+    margin-top: 1rem;
+    border: 2px solid;
+    background: #00b5e2;
+    border-color: #00b5e2;
+    border-radius: 1.25rem;
+    color: #fff;
+    padding: .25rem 1.25rem;
+    transition: all .3 ease-in-out;
+}
+
+.play_btn:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #1fd2ff;
+    border-color: #1fd2ff;
+}
+
+.play_btn:active{
+    transform: translateY(3px);
+}
+
+/* services */
+
+.service_container{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.services_list{
+    margin: 0 auto;
+    max-width:  1020px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.head_title_service{
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+.service{
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  min-width: 100px;
+  max-width: 400px;
+  flex: 1 1 200px;
+}
+
+.service_title{
+    margin-top: 1rem;
+}
+
+.service_text{
+    margin-top: 1rem;
+}
+
+.service_icon{
+    width: 50px;
+    height: 50px;
+}
+
+/* contact */
+
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    background: #212529;
+}
+
+.contact_title{
+    color: #fff;
+}
+
+.legal{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+    .header_nav{
+      flex-direction: column;
+    } 
+    
+    .button_title{
+        margin-left: 0;
+    }
+
+    .logo{
+        display: none;
+    }
+    nav{
+        background: #222;
+        padding: 5px 20px
+    }
+   
+
+  .ul_list{
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ .ul_list li {
+    font-size: 16px;
+    padding: 15px 5px;
+    white-space: nowrap;
+ }
+
+ .toggle{
+     color: #fff;
+     display: block;
+     order: 1;
+ }
+
+
+
+ .toggle a{
+     font-size: 20px;
+ }
+
+ .item button{
+    order: 2;
+}
+
+ .li_choice{
+     order: 3;
+    width: 100%;
+    text-align: center;
+    display: none;
+ }
+ 
+
+ a{
+     color: white;
+     text-decoration: none;
+ }
+
+ a:hover{
+     text-decoration: underline;
+ }
+
+ .signup {
+     margin: 0;
+    border-top: 1px #444 solid;
+}
+
+ .logo{
+     order: 0;
+ }
+
+    /* landing */
+
+    .landing{ 
+       top: 90%;
+        left: 10%;
+    }
+
+
+    /* perks list */
+    .perks_list{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* testimonial list */
+
+    .testimonial_list{
+        text-align: center;
+        flex-direction: column;
+    }
+
+
+    /* advertiser container */
+
+    .advertisement_container{
+        background-size: cover;
+        text-align: center;
+    }
+   
+
+    .advert{
+        position: absolute;
+        top: 40%;
+        right: 10%;
+        letter-spacing: 2px;
+    }
+    
+
+    }
+
