@@ -47,14 +47,11 @@ body {
     margin-left: 1rem;
     display: flex;
     flex-direction: row;
-    font-size: 1rem;
 }
 
 li{
-    color: #F3f3f3;
-    display: inline-block;
-    font-size: 1rem;
-    margin-right: .5rem;
+    display: block;
+    width: auto;
 }
 
 .li_choice:hover{
@@ -66,10 +63,12 @@ li{
 transform: translateY(2px);
 }
 
-.middle_nav{
-    font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
+.choice_nav{
+text-decoration: none;
+color: #F3f3f3;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: .5rem;
 }
 
 
@@ -77,14 +76,34 @@ ul{
     list-style-type: none;
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+}
 
+a:hover{
+    cursor: pointer;
+    color:  #1fd2ff;
+    border-color: #1fd2ff;
+}
+
+a:active{
+    transform: translateY(3px);
+}
+
+
+.login{
+    margin-left: 55rem;
+   
+}
 
 .signup{
-    margin-left: 60rem;
-    display: inline-block;
-    font-size: 1rem;
-    text-transform: uppercase;
-    display: inline-block;
+    margin-left:1rem;
+  
+}
+
+a:visited { 
+    text-decoration: none; 
 }
 
 .registry_btn{
@@ -494,17 +513,25 @@ transform: translateY(3px);
 /* media queries */
 
 @media only screen and (max-width: 600px) {
-    .header_nav{
-      flex-direction: column;
-    } 
-    
-    .button_title{
-        margin-left: 0;
-    }
+
+   .header_nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    width: 100%;
+    background-color: #212529;
+   }
+  
+   .header{
+       padding-top: 6rem;
+   }
 
     .logo{
+        order: 0;
         display: none;
     }
+
     nav{
         background: #222;
         padding: 5px 20px
@@ -532,13 +559,10 @@ transform: translateY(3px);
 
 
 
- .toggle a{
+ .logo a.toggle a{
      font-size: 20px;
  }
 
- .item button{
-    order: 2;
-}
 
  .li_choice{
      order: 3;
@@ -557,20 +581,28 @@ transform: translateY(3px);
      text-decoration: underline;
  }
 
- .signup {
+ .login{
+    order: 2;
      margin: 0;
-    border-top: 1px #444 solid;
+ }
+ .signup {
+    order: 2;
+     margin: 0;
+     border-bottom: 1px #444 solid;
+
 }
 
  .logo{
      order: 0;
  }
 
+
+
     /* landing */
 
     .landing{ 
        top: 90%;
-        left: 10%;
+        left: 0%;
     }
 
 
@@ -606,4 +638,5 @@ transform: translateY(3px);
     
 
     }
+
 
